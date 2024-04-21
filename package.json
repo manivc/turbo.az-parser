@@ -1,0 +1,22 @@
+{
+  "name": "turbo.az-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm run clean && node index.js",
+    "dev": "nodemon index.js",
+    "clean": "rmdir /S /Q data && mkdir data"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.5",
+    "cheerio": "^1.0.0-rc.12",
+    "nodemon": "^3.1.0",
+    "puppeteer": "^22.6.5",
+    "transliteration": "^2.3.5"
+  }
+}
